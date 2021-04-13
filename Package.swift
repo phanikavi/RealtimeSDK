@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "RealtimeSDK",
-    platforms: [.iOS(.v10)],
+    platforms: [.iOS(.v14)],
     products: [
         .library(
             name: "RealtimeSDK",
