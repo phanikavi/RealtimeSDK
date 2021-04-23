@@ -1,7 +1,6 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-// Testing 1
 let package = Package(
     name: "RealtimeSDK",
     platforms: [.iOS(.v14)],
@@ -14,9 +13,9 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "RealtimeSDK",
-            url: "https://github.com/danabrooks/RealtimeSDK/releases/download/1.0.6/RealtimeSDK-1.0.6.xcframework.zip",
-            checksum: "275bed4ce3451730ee5482a05cdc6d686599090ba52f1bc33e3fb075e2eaf393"
+            url: "https://github.com/danabrooks/RealtimeSDK/releases/download/0.1.14/RealtimeSDK-0.1.14.xcframework.zip",
+            checksum: "5b1d9234b67da3d6b0c45bf746d9740bb907b0f3aeae95fdc3379dbc4e8efd54"
         ),
     ]
 )
-// For tag 0.1.11 - Fri Apr 23 11:20:05 EDT 2021
+// For tag 0.1.14 - Fri Apr 23 14:04:13 EDT 2021
