@@ -13,8 +13,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "RealtimeSDK",
-            url: "https://github.com/danabrooks/RealtimeSDK/releases/download/0.2.0/RealtimeSDK-0.2.0.xcframework.zip",
-            checksum: "a9beeb9b647d65eab3ac6a886906c48f86d9aa6af15bcfbc2cbe399df856f954"
+            url: "https://github.com/danabrooks/RealtimeSDK/releases/download/0.3.0/RealtimeSDK-0.3.0.xcframework.zip",
+            checksum: "91dd3d8cbc198cf0885eda3235fb8e8b0471b6fee86c4a70f8d1404c6cb13386"
         ),
     ]
 )
