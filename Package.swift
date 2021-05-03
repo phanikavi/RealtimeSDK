@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "RealtimeSDK",
-    platforms: [.iOS(.v14)],
+    platforms: [.iOS(.v13)],
     products: [
         .library(
             name: "RealtimeSDK",
@@ -13,8 +13,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "RealtimeSDK",
-            url: "https://github.com/danabrooks/RealtimeSDK/releases/download/0.4.0/RealtimeSDK-0.4.0.xcframework.zip",
-            checksum: "a01d49937e6d865e37bbfd19cf7699b9b83590ec7d53bf8ba16f54358a74e2f0"
+            url: "https://github.com/danabrooks/RealtimeSDK/releases/download/0.1.99/RealtimeSDK-0.1.99.xcframework.zip",
+            checksum: "64b8c255e77975e1ff25be73abfd3ab116be6ecf2dfd2fcdf215534de9e15dd3"
         ),
     ]
 )
