@@ -9,12 +9,15 @@ let package = Package(
             name: "RealtimeSDK",
             targets: ["RealtimeSDK"]),
     ],
-    dependencies: [ ],
+    dependencies: [
+        .package(url: "https://github.com/phanikavi/apollo-ios", .upToNextMinor(from: "0.43.1")),
+        .package(url: "https://github.com/statsel/WebRTC", .upToNextMinor(from: "89.0.0")),
+    ],
     targets: [
         .binaryTarget(
             name: "RealtimeSDK",
-            url: "https://github.com/danabrooks/RealtimeSDK/releases/download/0.5.0/RealtimeSDK-0.5.0.xcframework.zip",
-            checksum: "5c8b1ec77ac257f819de93bafb4540669698ef663997e8aaae2e7f27a2a6b324"
+            url: "https://github.com/phanikavi/RealtimeSDK/releases/download/5.0.2/RealtimeSDK-5.0.2.xcframework.zip",
+            checksum: "63c53aa113673a963b52a39fdebebdcf33df7a1418b5144f4442103c410b0f26"
         ),
     ]
 )
