@@ -2,12 +2,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "RealtimeSDK2",
+    name: "RealtimeSDK",
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "RealtimeSDK2",
-            targets: ["RealtimeSDK2"]),
+            name: "RealtimeSDK",
+            targets: ["RealtimeSDK"]),
     ],
     dependencies: [
         .package(url: "https://github.com/phanikavi/apollo-ios", .upToNextMinor(from: "0.43.1")),
@@ -16,7 +16,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "RealtimeSDK",
-            url: "https://github.com/phanikavi/RealtimeSDK/releases/download/5.0.3/RealtimeSDK-5.0.3.xcframework.zip",
+            url: "https://github.com/phanikavi/RealtimeSDK/releases/download/5.0.4/RealtimeSDK-5.0.3.xcframework.zip",
             checksum: "d925d3d0a25284a571875096f13217e014bbad2b461ef524b118402eaff383f9"
         ),
     ]
