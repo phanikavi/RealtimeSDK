@@ -20,8 +20,6 @@ let package = Package(
                 .package(
                     url: "https://github.com/statsel/WebRTC.git",
                     .upToNextMajor(from: "89.0.0")),
-            ],
-            dependencies: [
                 .package(
                     url: "https://github.com/phanikavi/apollo-ios.git",
                     .upToNextMajor(from: "0.43.2")),
