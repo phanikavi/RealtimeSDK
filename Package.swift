@@ -26,8 +26,8 @@ let package = Package(
                     .upToNextMajor(from: "0.43.2")),
             ],
             exclude: [],
-            url: "https://github.com/phanikavi/RealtimeSDK/releases/download/5.0.6/RealtimeSDK-5.0.6.xcframework.zip",
-            checksum: "624a9eef4e22339406dfa3eb0a0ddd1f6c105278df2ed2cedc31f64e52e38de4"
+            url: "https://github.com/phanikavi/RealtimeSDK/releases/download/5.0.7/RealtimeSDK-5.0.7.xcframework.zip",
+            checksum: "f79f98bf858ba1378a0f8261d5a657ecc164b6d7a2cce9aa839018a4cbef2441"
         )
     ]
 )
