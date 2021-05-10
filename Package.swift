@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Apollo",
+    name: "RealtimeSDK",
     platforms: [
         .iOS(.v13)
     ],
@@ -16,9 +16,6 @@ let package = Package(
                 .package(
                     url: "https://github.com/statsel/WebRTC.git",
                     .upToNextMajor(from: "89.0.0")),
-                .package(
-                    url: "https://github.com/phanikavi/apollo-ios.git",
-                    .upToNextMajor(from: "0.43.2")),
     ],
     targets: [
         .binaryTarget(
