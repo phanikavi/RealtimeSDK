@@ -9,7 +9,7 @@ let package = Package(
             name: "RealtimeSDK",
             targets: ["RealtimeSDK"]),
     ],
-    dependencies: [
+    linkerSettings: [
                    .package(url: "https://github.com/phanikavi/apollo-ios", .upToNextMinor(from: "0.43.2")),
                    .package(url: "https://github.com/phanikavi/WebRTC", .upToNextMinor(from: "90.0.0")),
                    ],
